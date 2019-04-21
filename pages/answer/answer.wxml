@@ -1,0 +1,25 @@
+<!--pages/answer/answer.wxml-->
+<view class="maincontainer">
+ <image class="containerimg" src="../../images/01/004.png"></image>
+   <tab-Header isplaying="{{isplaying}}"></tab-Header>
+   
+   <image-container totalNum ='{{showJsonList.length}}' imagesrc="{{showJsonList[currentIndex].answerimg}}" currentIndex ="{{currentIndex+1}}"></image-container>
+    <!-- <div class="question_item">
+           <div class="title">{{question.title}}</div>
+            <div class="choose">
+                 <div class="choitem" v-for="(option,index) in question.ans"
+                             :key="option"
+                             :class="{selected:isSelected(question,index)}"
+                             @click="doOptions(index)">{{option}}</div>                            
+                </div>
+                style="background:url({{(keyIndex==index)?url:''}}) no-repeat;"
+       </div> -->
+       <div class="question_item">
+            <div class="title">{{showJsonList[currentIndex].title}}</div>
+             <div class="choose">
+                 <div class="choitem"  bindtap ="chooseItem" wx:for="{{showJsonList[currentIndex].ans}}" data-source="{{showJsonList[currentIndex].answer}}"  wx:key="index" data-id='{{index}}'data-item="{{showJsonList[currentIndex]}}" wx:for-item="value" style="background:{{(keyIndex===index)?'red':''}}" >
+                   <text class="choitemtxt" >{{value}}</text>
+                 </div>
+             </div>
+       </div>
+</view>

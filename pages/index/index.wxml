@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  
+  
+   <tab-Header></tab-Header>
+    <image class="containerimg" src="../../images/01/004.png"></image>
+   <view class="maincontent">
+       <image class="maincontentbgimg" src="../../images/01/box.png"></image>
+      <div class="content">
+          <image class="game" src="../../images/01/game.png"></image>
+          <div class="cylinderdiv">
+               <image class="cylinder" src="../../images/01/cylinder.png"></image>  
+                <image class="cylinder" src="../../images/01/cylinder.png"></image>
+          </div>
+          
+      </div>
+      <div class="btn">
+             <image class="btnimg" src="../../images/01/btn.png"></image>
+          </div>
+   </view>
+   <view class="footerlogo">
+       <image class='logo' src="./"></image>
+         <text class="footertxt">讯飞商场</text>
+   </view>
+
+</view>
+

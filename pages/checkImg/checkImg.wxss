@@ -1,0 +1,110 @@
+/* pages/checkImg/checkImg.wxss */
+page{
+  height: 100%;
+}
+.maincontainer{
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+}
+.bgimg{
+  width:100%;
+  height: 100%;
+  
+}
+.content{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.toptitle{
+  margin-top:180rpx;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.title{
+  font-size: 70rpx;
+  color:#6a3839;
+  line-height: 90rpx;
+}
+.maincontent{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:54rpx;
+  position: relative;
+  flex-wrap:wrap;
+}
+.main-li{
+   width: 198rpx;
+   height: 198rpx;
+   margin-right:20rpx;
+   margin-bottom: 20rpx;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+  
+}
+.borderimg{
+  width:198rpx;
+  height: 198rpx;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.liimg{
+  width:180rpx;
+  height: 180rpx;
+  position: absolute;
+  top:9rpx;
+  left:9rpx;
+}
+.selecteddiv{
+  width:198rpx;
+  height: 198rpx;
+  background-color: rgba(160,58,58,0.6);
+  z-index:99;
+}
+.selectimg{
+   width:198rpx;
+   height: 198rpx;
+   z-index: 99;
+}
+
+.btn{
+   width:100%;
+   /* position: absolute;
+   bottom:200rpx;
+   left:0; */
+   position: relative;
+   margin-top: 50rpx;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.btnimg{
+   width:593rpx;
+   height: 140rpx;
+}
+.suretxt{
+  font-size: 60rpx;
+  color:#fff;
+  position: absolute;
+  top:20rpx;
+  left:43%;
+}

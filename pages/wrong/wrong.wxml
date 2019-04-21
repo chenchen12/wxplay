@@ -1,0 +1,32 @@
+<!--pages/wrong/wrong.wxml-->
+<view class="ansright">
+<image class="containerimg" src="../../images/01/003.png"></image>
+       <tab-Header></tab-Header>
+       <image-container totalNum ='{{6}}' imagesrc="{{detail.rightimg}}" currentIndex ="{{currentIndex+1}}"></image-container>
+       <div class="bottom-content">
+            <div class="righttips">
+                 <image class="right-img"  src="{{isRight?'../../images/03/right.png':'../../images/03/x.png'}}"></image>
+                 <text class="tips">{{isRight ?'答对了':'答错了'}}</text>
+                  <div class="answer">
+                      <!-- <image class="an_img" src="../../images/03/left.png"></image> -->
+                      <text class="righttext">答案是:{{detail.right}}</text>
+                      <!-- <image class="an_img"  src="../../images/03/an-right.png"></image> -->
+                  </div>
+            </div> 
+            
+            <div class="jieshuo">
+                
+                <p class="jieshuotext">{{detail.introduce}}</p>
+               
+            </div>
+          
+           <div class="sum">
+               <p class="sumtext">{{detail.sum}} </p>
+               <image class="next" src="../../images/03/next.png" bindtap="handlertap"></image>
+           </div>
+          
+            <image class="sum-img" src="../../images/03/line.png"></image>
+      </div>
+       
+        
+    </view>

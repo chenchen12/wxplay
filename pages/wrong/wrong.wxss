@@ -1,0 +1,108 @@
+/* pages/wrong/wrong.wxss */
+page{
+  height: 100%;
+}
+.ansright{
+  background-color:blue;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.containerimg{
+  width:100%;
+  height: 100%;
+  display: block;
+   position: absolute;
+   top:0;
+   left:0;
+}
+.bottom-content{
+    position: absolute;
+    top:920rpx;
+    left:0;
+    width:100%;
+}
+ .righttips{
+      display:flex;
+      flex-direction: row;
+      align-items:center;
+      width:100%;
+  }
+  .right-img{
+      width:72rpx;
+      height:72rpx;
+      margin-left:36rpx;
+  }
+  .tips{
+      font-size:65rpx;
+      color:#ff0000;
+      font-family: 'HanziPenSC';
+      margin:0rpx;
+      margin-top:5rpx;
+  }
+  
+  .answer{
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      margin-left:35rpx;
+  }
+  .righttext{
+      background:#fff;
+      font-size:36rpx;
+      font-weight: bold;
+      margin:0rpx;
+  }
+  .an_img{
+      height:27rpx;
+  }
+  .topimg{
+      width:305rpx;
+      margin-left:38rpx;
+      height:4rpx;
+  }
+  .jieshuo{
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-left:38rpx;
+      border:2rpx solid #333;
+      margin-right: 38rpx;
+      margin-top:40rpx;
+      
+  }
+  .leftimg{
+     width:3rpx;
+     height:65rpx;
+  }
+  .jieshuotext{
+      margin:0rpx;
+      padding:10rpx;
+  }
+  .sum{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+  }
+  .sumtext{
+      margin:0rpx;
+      margin-left:40rpx;
+      font-size:48rpx;
+      font-family: 'HanziPenSC';
+      color:#ff0000;
+      white-space:pre-wrap;
+      width:600rpx;
+  }
+  .sum-img{
+      height:53rpx;
+      width:100%;
+  }
+  .next{
+      width:107rpx;
+      height:137rpx;
+      margin-right: 25rpx;
+      margin-top: 10rpx;
+  }

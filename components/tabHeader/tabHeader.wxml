@@ -1,0 +1,6 @@
+<!--components/tabHeader.wxml-->
+<view class ="top">
+       <image class="leftimg" src="../../images/04/left.png"></image>
+       <image class="rightimg" src="{{isplaying?'../../images/04/music.gif':'../../images/04/music.png'}}"></image>
+       
+</view> 

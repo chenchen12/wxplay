@@ -1,0 +1,158 @@
+/* pages/share/share.wxss */
+page{
+  height: 100%;
+}
+.maincontent{
+  width: 100%;
+  /* height: 100%; */
+  position: relative;
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+
+}
+.containerimg{
+  width:100%;
+  /* height: 100%; */
+}
+.datacontent{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* position: absolute; */
+  justify-content: space-between;
+}
+  .topimg{
+    width:310rpx;
+    height:310rpx;
+    margin-left:52rpx;
+    margin-top:50rpx;
+  }
+  .mineimg{
+       /* background:url('../assets/image/05/border.png'); */
+     /* background-size:cover;
+     -webkit-background-size:cover; */
+     /* width:180rpx;
+      height:180rpx; */
+     /* margin-left:20rpx; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+       margin-right:32rpx;
+  }
+  .mine{
+      width:180rpx;
+      height:180rpx;
+      margin-top:66rpx;
+     
+  }
+  .myname{
+     margin-left:45rpx;
+     font-size:30rpx;
+     margin-top:20rpx;
+     color:#a03a3a;
+     font-family: 'PingFangBold_0';
+      
+  }
+  .sharetext{
+      width:379rpx;
+      height:224rpx;
+      margin-left:52rpx;
+      margin-top:22rpx;
+      margin-bottom: 22rpx;
+  }
+  .sharecontent{
+       display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top:30rpx;
+      /* position: absolute; */
+
+  }
+   .share-img{
+     width:648rpx;
+     height:589rpx;
+   }
+   .answer{
+        display: flex;
+      flex-direction: column;
+      /* position: absolute; */
+   }
+   .answertop{
+           display: flex;
+      flex-direction: row;
+       justify-content: center;
+      align-items: center;
+   }
+   .answertop1{
+       font-size:20px;
+       color:#fff;
+       text-align: center;
+       position: relative;
+       align-items: center;
+       margin-right:26rpx;
+   }
+     .answertop2{
+       font-size:20px;
+       color:#fff;
+        text-align: center;
+         position: relative;
+   }
+   .ansimg{
+     width:399rpx;
+     height: 104rpx;
+     
+   }
+   .ansval{
+     position: absolute;
+     top:0;
+     left:0;
+     margin-top:20rpx;
+     margin-left:126rpx;
+   }
+   .ansvalshare{
+      position: absolute;
+     top:0;
+     left:0;
+     margin-top:20rpx;
+     margin-left:80rpx;
+   }
+
+   .shareimg{
+       width:224rpx;
+       height: 104rpx;
+   }
+   .next{
+       /* background:url('../assets/image/06/next.png'); */
+        font-size:20px;
+       color:#fff;
+        text-align: center;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   }
+   .nextimg{
+       width:637rpx;
+       height: 104rpx;
+      
+
+   }
+   .val{
+      padding:0;
+      margin:0;
+       position: absolute;
+       top:0;
+       left:0;
+       margin-top:15rpx;
+       margin-left:135rpx;
+   }

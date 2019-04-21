@@ -1,0 +1,22 @@
+/* components/tabHeader.wxss */
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:100%;
+  height:147rpx;
+  position: absolute;
+  left:0;
+  top:28rpx;
+  z-index:88;
+}
+.leftimg{
+   width:447rpx;
+   height: 147rpx;
+   margin-left:35rpx;
+}
+.rightimg{
+  width:123rpx;
+  height: 78rpx;
+  margin-right:35rpx;
+}

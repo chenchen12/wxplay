@@ -1,0 +1,24 @@
+<!--pages/checkImg/checkImg.wxml-->
+<view class="maincontainer">
+   <image class="bgimg" src="../../images/01/004.png"></image>
+   <view class="content">
+      <tab-Header></tab-Header>
+      <view class="toptitle">
+         <text class="title">以上玩具</text>
+         <text class="title">你喜欢的是</text>
+      </view>
+      <view class="maincontent">
+            <view class="main-li" wx:for="{{currentData}}" wx:key="index" wx:for-item="item" catchtap='chooseImage' data-id="{{index}}">
+               <image class="borderimg" src="../../images/05/border.png"></image>
+               <image class="liimg" src="{{item.answerimg}}"></image>
+               <view class="selecteddiv" wx:if="{{selectedIndex ===index}}">
+                   <image class="selectimg" src="../../images/05/select.png"></image>
+               </view>
+            </view>
+      </view>
+      <view class="btn" catchtap='btnJump'>
+          <image class="btnimg" src="../../images/05/confirm.png"></image>
+          <text class="suretxt">确定</text>
+      </view>
+   </view>
+</view>

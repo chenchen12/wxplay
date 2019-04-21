@@ -1,0 +1,17 @@
+<!--components/imageContainer/imageContainer.wxml-->
+<view class="con">
+       <div class="maincontent">
+          <image class="container" src="../../images/02/tv.png"></image>
+             <div class="titleimg">
+              <image class="tit-img" src="{{imagesrc}}"></image>
+            </div> 
+            <div class="btnimg">
+                <image class="item1" src="../../images/02/switch.gif"></image>
+                <image class="item  item2" src="../../images/02/turn-left.gif"></image>
+                <image class="item  item3" src="../../images/02/border.png"></image>
+                <span class="val">{{totalNum}}/{{currentIndex}}</span>  
+                <image class="item  item4" src="../../images/02/turn-right.gif"></image>
+                <image class="item5" src="../../images/02/voice.gif"></image>
+            </div>
+       </div>
+  </view>

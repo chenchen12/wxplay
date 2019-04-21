@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/answer/answer",
+    "pages/checkImg/checkImg",
+   "pages/share/share",
+    
+    "pages/wrong/wrong",
+    "pages/index/index"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小游戏",
+    "navigationBarTextStyle": "black"
+  },
+  "requiredBackgroundModes": ["audio"]
+}

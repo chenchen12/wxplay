@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tab-Header": "/components/tabHeader/tabHeader",
+    "image-container" :"/components/imageContainer/imageContainer"
+  }
+}

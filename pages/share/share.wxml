@@ -1,0 +1,35 @@
+<!--pages/share/share.wxml-->
+<view class="maincontent">
+    <image class="containerimg" src="../../images/06/bg.png"  mode="widthFix"></image>
+     <view class="datacontent">
+        <div class="top">
+          <image class="topimg" src="{{currentShare.name}}"></image>
+          <div class="mineimg">
+              <image class="mine" src="../../images/06/default.png"></image>
+              <p class="myname">西方暖</p>
+          </div>  
+          <image class="sharetext" src="{{currentShare.introduce}}" ></image> 
+      </div>
+      <div class="sharecontent">
+          <image class="share-img" src="{{currentData.shareimg}}" mode="widthFix"></image>
+      </div>
+      <div class="answer">
+          <div class="answertop">
+              <view class="answertop1" bindtap='onmore'>
+                  <image class="ansimg" src="../../images/06/agin.png"></image>
+                  <p class="ansval">再答一次</p>
+              </view>
+
+             
+              <div class="answertop2" catchtap="onshare" >
+                <image class="shareimg" src="../../images/06/share.png"></image>
+                  <p class="ansvalshare">分享</p>
+              </div>
+          </div>
+          <div class="next">
+              <image  class="nextimg" src="../../images/06/next.png"></image>
+              <p class="val">看看现在的小朋友在想什么</p>
+          </div>
+      </div>
+     </view>
+</view>
